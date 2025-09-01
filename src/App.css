@@ -1,0 +1,72 @@
+#stroke-text::before{
+content: "Eat. Drink. Play.";
+position: absolute;
+color: white;
+top: 4px;
+right: -3px;
+z-index: 2;
+-webkit-text-stroke: 0px  transparent;
+}
+
+
+#stroke-text {
+  position: relative;
+ 
+  font-weight: 800;
+  color: black;
+  z-index: 1;
+-webkit-text-stroke: 1px  #95C11E;
+
+
+
+
+
+}
+.marquee-item {
+  margin: 0 2rem;
+  font-size: 8rem;                  /* Desktop default */
+  color: transparent;               /* hollow text */
+  -webkit-text-stroke: 2px white;   /* outline only */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.marquee-item:hover {
+  color: #95C11E;
+  -webkit-text-stroke: 2px #95C11E;
+}
+
+/* Responsive font sizes */
+@media (max-width: 1024px) {   /* Laptop / large tablet */
+  .marquee-item {
+    font-size: 6rem;
+    margin: 0 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {    /* Tablet / mobile landscape */
+  .marquee-item {
+    font-size: 4rem;
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {    /* Mobile portrait */
+  .marquee-item {
+    font-size: 2.5rem;
+    margin: 0 0.5rem;
+  }
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 45s linear infinite;
+}
