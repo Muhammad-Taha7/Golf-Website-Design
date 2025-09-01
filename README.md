@@ -1,12 +1,57 @@
-# React + Vite
+# Sidcup Website
+<img width="1904" height="949" alt="image" src="https://github.com/user-attachments/assets/13fd92d3-aaeb-40cb-ad3c-877136a8128a" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Sidcup**, the ultimate destination for fun, adventure, and unforgettable memories. Our website showcases our services, events, and membership opportunities, providing a seamless experience for visitors to explore and engage with everything Sidcup has to offer.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Mini-Golf Courses**: Beautifully designed courses suitable for all ages.
+- **Food & Drinks**: Fresh and delicious options to enjoy during your visit.
+- **Parties & Events**: Customizable packages for birthdays, corporate events, and special celebrations.
+- **Membership**: Exclusive offers, discounts, and VIP perks for members.
+- **Newsletter**: Stay updated with our latest offers, news, and events.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **HTML5**
+- **CSS3 & Tailwind CSS**
+- **JavaScript**
+- **React.js** (optional if using React)
+- **Framer Motion** (for animations, optional)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sidcup-website.git
+Navigate to the project folder:
+
+bash
+Copy code
+cd sidcup-website
+Install dependencies (if using React):
+
+bash
+Copy code
+npm install
+Run the development server:
+
+bash
+Copy code
+npm start
+Usage
+Explore the Home, About, Services, and Events sections.
+<img width="1905" height="949" alt="image" src="https://github.com/user-attachments/assets/7704f36c-fa2c-41b6-9bb8-63a245cc37b3" />
+
+Subscribe to the newsletter to receive updates.
+
+Contact us for bookings or membership inquiries.
+
+Contributing
+Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or suggestions.
+
+License
+This project is licensed under the MIT License.
+
+© 2025 Sidcup. All Rights Reserved.
